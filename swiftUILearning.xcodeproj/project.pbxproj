@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		F16E26832AEDB0D900FB3F04 /* swiftUILearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16E26822AEDB0D900FB3F04 /* swiftUILearningApp.swift */; };
-		F16E26852AEDB0D900FB3F04 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16E26842AEDB0D900FB3F04 /* ContentView.swift */; };
 		F16E26872AEDB0D900FB3F04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F16E26862AEDB0D900FB3F04 /* Assets.xcassets */; };
 		F16E268A2AEDB0D900FB3F04 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F16E26892AEDB0D900FB3F04 /* Preview Assets.xcassets */; };
 		F16E26942AEDB0DA00FB3F04 /* swiftUILearningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16E26932AEDB0DA00FB3F04 /* swiftUILearningTests.swift */; };
 		F16E269E2AEDB0DA00FB3F04 /* swiftUILearningUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16E269D2AEDB0DA00FB3F04 /* swiftUILearningUITests.swift */; };
 		F16E26A02AEDB0DA00FB3F04 /* swiftUILearningUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16E269F2AEDB0DA00FB3F04 /* swiftUILearningUITestsLaunchTests.swift */; };
+		F1A602B02B20A6CA00162B58 /* PhotosContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A602AF2B20A6CA00162B58 /* PhotosContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		F16E267F2AEDB0D900FB3F04 /* swiftUILearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftUILearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F16E26822AEDB0D900FB3F04 /* swiftUILearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftUILearningApp.swift; sourceTree = "<group>"; };
-		F16E26842AEDB0D900FB3F04 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F16E26862AEDB0D900FB3F04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F16E26892AEDB0D900FB3F04 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F16E268F2AEDB0DA00FB3F04 /* swiftUILearningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftUILearningTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +43,7 @@
 		F16E26992AEDB0DA00FB3F04 /* swiftUILearningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftUILearningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F16E269D2AEDB0DA00FB3F04 /* swiftUILearningUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftUILearningUITests.swift; sourceTree = "<group>"; };
 		F16E269F2AEDB0DA00FB3F04 /* swiftUILearningUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftUILearningUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F1A602AF2B20A6CA00162B58 /* PhotosContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				F16E26822AEDB0D900FB3F04 /* swiftUILearningApp.swift */,
-				F16E26842AEDB0D900FB3F04 /* ContentView.swift */,
+				F1A602AF2B20A6CA00162B58 /* PhotosContentView.swift */,
 				F16E26862AEDB0D900FB3F04 /* Assets.xcassets */,
 				F16E26882AEDB0D900FB3F04 /* Preview Content */,
 			);
@@ -257,8 +257,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F16E26852AEDB0D900FB3F04 /* ContentView.swift in Sources */,
 				F16E26832AEDB0D900FB3F04 /* swiftUILearningApp.swift in Sources */,
+				F1A602B02B20A6CA00162B58 /* PhotosContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,18 +1,18 @@
 //
-//  ContentView.swift
+//  PhotosContentView.swift
 //  swiftUILearning
 //
-//  Created by Alaa Eid on 28/10/2023.
+//  Created by Alaa Eid on 06/12/2023.
 //
 
 import SwiftUI
 
-struct ContentView: View {
+struct PhotosContentView: View {
     
-    let wallpapers = [TestImageModel(name: "likes", image: "likes-illustration"),
-                      TestImageModel(name: "Thanks", image: "thanks"),
-                      TestImageModel(name: "search", image: "Search-Not-Found"),
-                      TestImageModel(name: "Connection", image: "no-connection")]
+    let wallpapers = [TestImageModel(name: "flower A", image: "flowers-3"),
+                      TestImageModel(name: "flower B", image: "flowers-4"),
+                      TestImageModel(name: "flower C", image: "flowers-5"),
+                      TestImageModel(name: "flower D", image: "flowers-6")]
     
     
     var body: some View {
@@ -21,19 +21,19 @@ struct ContentView: View {
                 NavigationLink(value: wallpaper) {
                     ExtractedView(wallpaper: wallpaper)
                 }
-            }
-        }.navigationTitle("Wallpapers")
-            .navigationDestination(for: TestImageModel.self) { wallpaper in
-                Text(wallpaper.name)
-            }
-      
+                
+            }.navigationTitle("Wall papers")
+                .navigationDestination(for: TestImageModel.self) { wallpaper in
+                    Text(wallpaper.name)
+                }
+        }
         
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct PhotosContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        PhotosContentView()
     }
 }
 
