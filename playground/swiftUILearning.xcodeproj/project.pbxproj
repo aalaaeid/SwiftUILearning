@@ -13,6 +13,7 @@
 		F16E26942AEDB0DA00FB3F04 /* swiftUILearningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16E26932AEDB0DA00FB3F04 /* swiftUILearningTests.swift */; };
 		F16E269E2AEDB0DA00FB3F04 /* swiftUILearningUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16E269D2AEDB0DA00FB3F04 /* swiftUILearningUITests.swift */; };
 		F16E26A02AEDB0DA00FB3F04 /* swiftUILearningUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16E269F2AEDB0DA00FB3F04 /* swiftUILearningUITestsLaunchTests.swift */; };
+		F18AA6292B20AEC60027D73B /* PhotoDetailsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18AA6282B20AEC60027D73B /* PhotoDetailsScreen.swift */; };
 		F1A602B02B20A6CA00162B58 /* PhotosContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A602AF2B20A6CA00162B58 /* PhotosContentView.swift */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +44,7 @@
 		F16E26992AEDB0DA00FB3F04 /* swiftUILearningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftUILearningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F16E269D2AEDB0DA00FB3F04 /* swiftUILearningUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftUILearningUITests.swift; sourceTree = "<group>"; };
 		F16E269F2AEDB0DA00FB3F04 /* swiftUILearningUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftUILearningUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F18AA6282B20AEC60027D73B /* PhotoDetailsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailsScreen.swift; sourceTree = "<group>"; };
 		F1A602AF2B20A6CA00162B58 /* PhotosContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -96,6 +98,7 @@
 			children = (
 				F16E26822AEDB0D900FB3F04 /* swiftUILearningApp.swift */,
 				F1A602AF2B20A6CA00162B58 /* PhotosContentView.swift */,
+				F18AA6282B20AEC60027D73B /* PhotoDetailsScreen.swift */,
 				F16E26862AEDB0D900FB3F04 /* Assets.xcassets */,
 				F16E26882AEDB0D900FB3F04 /* Preview Content */,
 			);
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F16E26832AEDB0D900FB3F04 /* swiftUILearningApp.swift in Sources */,
+				F18AA6292B20AEC60027D73B /* PhotoDetailsScreen.swift in Sources */,
 				F1A602B02B20A6CA00162B58 /* PhotosContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

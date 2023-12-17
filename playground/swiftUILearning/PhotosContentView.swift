@@ -24,7 +24,7 @@ struct PhotosContentView: View {
                 
             }.navigationTitle("Wall papers")
                 .navigationDestination(for: TestImageModel.self) { wallpaper in
-                    Text(wallpaper.name)
+                    PhotoDetailsScreen(wallpaper: wallpaper)
                 }
         }
         
