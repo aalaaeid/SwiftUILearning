@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F11360392B30995B00D4040B /* BulbContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11360382B30995B00D4040B /* BulbContentView.swift */; };
 		F16E26832AEDB0D900FB3F04 /* swiftUILearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16E26822AEDB0D900FB3F04 /* swiftUILearningApp.swift */; };
 		F16E26872AEDB0D900FB3F04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F16E26862AEDB0D900FB3F04 /* Assets.xcassets */; };
 		F16E268A2AEDB0D900FB3F04 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F16E26892AEDB0D900FB3F04 /* Preview Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F11360382B30995B00D4040B /* BulbContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulbContentView.swift; sourceTree = "<group>"; };
 		F16E267F2AEDB0D900FB3F04 /* swiftUILearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftUILearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F16E26822AEDB0D900FB3F04 /* swiftUILearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftUILearningApp.swift; sourceTree = "<group>"; };
 		F16E26862AEDB0D900FB3F04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 			children = (
 				F16E26822AEDB0D900FB3F04 /* swiftUILearningApp.swift */,
 				F1A602AF2B20A6CA00162B58 /* PhotosContentView.swift */,
+				F11360382B30995B00D4040B /* BulbContentView.swift */,
 				F18AA6282B20AEC60027D73B /* PhotoDetailsScreen.swift */,
 				F16E26862AEDB0D900FB3F04 /* Assets.xcassets */,
 				F16E26882AEDB0D900FB3F04 /* Preview Content */,
@@ -263,6 +266,7 @@
 				F16E26832AEDB0D900FB3F04 /* swiftUILearningApp.swift in Sources */,
 				F18AA6292B20AEC60027D73B /* PhotoDetailsScreen.swift in Sources */,
 				F1A602B02B20A6CA00162B58 /* PhotosContentView.swift in Sources */,
+				F11360392B30995B00D4040B /* BulbContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
