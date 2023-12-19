@@ -7,41 +7,46 @@
 
 import SwiftUI
 
-struct BulbContentView: View {
+class AppState: ObservableObject {
+     @Published var isOn: Bool = false
+}
+
+struct MainRoom: View {
     
-    @State private var name: String = ""
-    @State private var names = ["Alaa", "lelo", "Esraa"]
-    @State private var filterdNames: [String] = []
-    
+    @EnvironmentObject private var appState: AppState
     var body: some View {
         VStack {
+            Image(systemName: "lightbulb")
+                .font(.largeTitle)
+                .foregroundColor( appState.isOn ? .yellow : .black)
+            Button("Switch") {
+                appState.isOn.toggle()
+            }.font(.largeTitle)
+        }
+    }
+}
+
+struct ChildRoom: View {
+    
+    
+    var body: some View {
+        MainRoom()
+    }
+}
+
+struct BulbContentView: View {
+    
+    
+    var body: some View {
        
-            List(filterdNames, id: \.self) { friend in
-                Text(friend)
-                    .font(.largeTitle)
-            }.listStyle(.plain)
-                .searchable(text: $name)
-                .onChange(of: name) { newValue in
-                    if name.isEmpty {
-                        filterdNames = names
-                    } else {
-                        filterdNames = names.filter({ $0.lowercased() == name.lowercased()})
-                    }
-                   
-                }
-                
-         Spacer()
-        }.padding()
-            .onAppear {
-                filterdNames = names
-            }
-            .navigationTitle("Friends")
+        ChildRoom()
     }
 }
 
 struct BulbContentView_Previews: PreviewProvider {
     static var previews: some View {
-        NavigationStack {
-            BulbContentView()}
+      
+            BulbContentView()
+            .environmentObject(AppState())
     }
 }
