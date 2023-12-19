@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+
 class AppState: ObservableObject {
      @Published var isOn: Bool = false
 }
@@ -19,9 +20,9 @@ struct MainRoom: View {
             Image(systemName: "lightbulb")
                 .font(.largeTitle)
                 .foregroundColor( appState.isOn ? .yellow : .black)
-            Button("Switch") {
-                appState.isOn.toggle()
-            }.font(.largeTitle)
+        
+            Toggle("Switch", isOn: $appState.isOn)
+                .fixedSize()
         }
     }
 }
