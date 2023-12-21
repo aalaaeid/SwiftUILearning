@@ -1,16 +1,25 @@
 
 # Weather APP
-- [x] Displaying weather data using MVVM and URLSession.
+- [x] Displaying weather data using the MVVM architecture pattern.
+- [x] Utilizing URLSession for network requests to fetch weather data.
 
 # GetMeCoffee APP
-- [x] Building a coffee ordering app using server-side code in Node.js with Express.js. The app will utilize segmented picker, forms, and sheet in the SwiftUI framework 
+- [x] Built using server-side code in Node.js with Express.js
+- [x] Utilizes segmented picker for selecting options
+- [x] Includes forms for inputting user information
+- [x] Implements a sheet for displaying additional details or confirmation
 
 # Menu APP
-- [x] Restaurant menu APP with dynamic font sizing, custom views, Dark Mode preview, and preview functionality for UIKit controls.
+- [x] Dynamic font sizing
+- [x] Custom views
+- [x] Dark Mode preview
+- [x] Preview functionality for UIKit controls.
 
 # Movies APP
-- [x] Movies list app using a combination of UIKit and SwiftUI. This app integrates the display of UIKit controls within SwiftUI views and allows for the display of SwiftUI views in a UIKit app. Additionally, implementing an Image Loader service using SwiftUI.
-
+- [x] Using a Combination of UIKit and SwiftUI
+- [x] Integrates UIKit controls within SwiftUI views
+- [x] Allows display of SwiftUI views in a UIKit app
+- [x] Implements an Image Loader service using SwiftUI
 
 # Stocks APP
 
