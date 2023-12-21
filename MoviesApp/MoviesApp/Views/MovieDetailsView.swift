@@ -3,7 +3,7 @@
 //  MoviesApp
 //
 //  Created by Alaa Eid on 21/12/2023.
-//  Copyright © 2023 Mohammad Azam. All rights reserved.
+
 //
 
 import Foundation
@@ -11,12 +11,28 @@ import SwiftUI
 
 struct MovieDetailsView: View {
     let movie: Movie
+    @State var isSelected: Bool = false
     
     var body: some View {
+        ZStack {
+            Color.orange
+                .edgesIgnoringSafeArea(.all)
         
-        VStack {
-            URLImage(url: movie.poster)
-            Text(movie.title)
+            VStack {
+                HStack {
+                    Spacer()
+                    StarViewRepresentation(selected: $isSelected)
+                        .frame(width: 35, height: 35)
+                        .padding()
+                }
+                URLImage(url: movie.poster)
+                    .cornerRadius(12)
+                    
+                Text(movie.title)
+                    .foregroundColor(.white)
+                    .font(.largeTitle)
+            }.padding()
+            
         }
     }
     

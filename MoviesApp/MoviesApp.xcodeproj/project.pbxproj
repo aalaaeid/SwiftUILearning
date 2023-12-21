@@ -21,6 +21,8 @@
 		F1D2634D2B34859800DE4AE4 /* MovieDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D2634C2B34859800DE4AE4 /* MovieDetailsView.swift */; };
 		F1D263512B34969B00DE4AE4 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D263502B34969B00DE4AE4 /* ImageLoader.swift */; };
 		F1D263532B349A9900DE4AE4 /* URLImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D263522B349A9900DE4AE4 /* URLImage.swift */; };
+		F1D263552B34A9EA00DE4AE4 /* StarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D263542B34A9EA00DE4AE4 /* StarView.swift */; };
+		F1D263592B34AA8300DE4AE4 /* StarViewRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D263582B34AA8300DE4AE4 /* StarViewRepresentation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		F1D2634C2B34859800DE4AE4 /* MovieDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDetailsView.swift; sourceTree = "<group>"; };
 		F1D263502B34969B00DE4AE4 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
 		F1D263522B349A9900DE4AE4 /* URLImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLImage.swift; sourceTree = "<group>"; };
+		F1D263542B34A9EA00DE4AE4 /* StarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarView.swift; sourceTree = "<group>"; };
+		F1D263582B34AA8300DE4AE4 /* StarViewRepresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarViewRepresentation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 		F1D263102B3473FA00DE4AE4 /* MoviesApp */ = {
 			isa = PBXGroup;
 			children = (
+				F1D263572B34AA6400DE4AE4 /* View Representations */,
+				F1D263562B34A9F000DE4AE4 /* CustomView */,
 				F1D263442B34746100DE4AE4 /* Models */,
 				F1D263432B34745900DE4AE4 /* Service */,
 				F1D2634F2B3485BC00DE4AE4 /* Controllers */,
@@ -172,6 +178,22 @@
 				F1D263152B3473FA00DE4AE4 /* MoviesTableViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F1D263562B34A9F000DE4AE4 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				F1D263542B34A9EA00DE4AE4 /* StarView.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		F1D263572B34AA6400DE4AE4 /* View Representations */ = {
+			isa = PBXGroup;
+			children = (
+				F1D263582B34AA8300DE4AE4 /* StarViewRepresentation.swift */,
+			);
+			path = "View Representations";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -305,6 +327,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1D263552B34A9EA00DE4AE4 /* StarView.swift in Sources */,
 				F1D263512B34969B00DE4AE4 /* ImageLoader.swift in Sources */,
 				F1D2634D2B34859800DE4AE4 /* MovieDetailsView.swift in Sources */,
 				F1D263162B3473FA00DE4AE4 /* MoviesTableViewController.swift in Sources */,
@@ -313,6 +336,7 @@
 				F1D263142B3473FA00DE4AE4 /* SceneDelegate.swift in Sources */,
 				F1D263482B3474A600DE4AE4 /* Movie.swift in Sources */,
 				F1D263532B349A9900DE4AE4 /* URLImage.swift in Sources */,
+				F1D263592B34AA8300DE4AE4 /* StarViewRepresentation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
