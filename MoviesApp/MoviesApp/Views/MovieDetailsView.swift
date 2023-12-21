@@ -15,7 +15,7 @@ struct MovieDetailsView: View {
     var body: some View {
         
         VStack {
-            
+            URLImage(url: movie.poster)
             Text(movie.title)
         }
     }
@@ -27,7 +27,7 @@ struct MovieDetailsView: View {
 struct MovieDetailsView_Previews: PreviewProvider {
     
     static var previews: some View {
-        let movie = Movie(title: "BatMan", imdbId: "20", poster: "Any")
+        let movie = Movie(title: "BatMan", imdbId: "20", poster: "https://fyrafix.files.wordpress.com/2011/08/url-8.jpg")
         MovieDetailsView(movie: movie)
     }
     
