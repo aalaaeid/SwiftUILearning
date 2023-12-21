@@ -9,14 +9,14 @@ import SwiftUI
 
 struct ContentView: View {
 
+   @ObservedObject var viewModel = OrderListViewModel()
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        
+        NavigationView {
+            OrderListView(orders: viewModel.orders)
+                .navigationTitle("Coffee Orders")
         }
-        .padding()
     }
 }
 
