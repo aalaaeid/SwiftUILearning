@@ -41,6 +41,15 @@ class MoviesTableViewController: UITableViewController {
         return cell
     }
     
+    @IBSegueAction func showMoviesDetails(_ coder: NSCoder) -> UIViewController? {
+        guard let selectedIndex = tableView.indexPathForSelectedRow else {
+             assertionFailure("No Index Found")
+            return UIViewController()
+        }
+        let view = MovieDetailsView(movie: movies[selectedIndex.row])
+        return UIHostingController(coder: coder, rootView: view)
+    }
+    
     private func populateMovies() {
         
         let url = "http://www.omdbapi.com/?s=batman&apikey=564727fa"
