@@ -4,7 +4,6 @@
 - [x] Utilizing URLSession for network requests to fetch weather data.
 
 # GetMeCoffee APP
-- [x] Built using server-side code in Node.js with Express.js
 - [x] Utilizes segmented picker for selecting options
 - [x] Includes forms for inputting user information
 - [x] Implements a sheet for displaying additional details or confirmation
