@@ -12,7 +12,6 @@
 - [x] Dynamic font sizing
 - [x] Custom views
 - [x] Dark Mode preview
-- [x] Preview functionality for UIKit controls.
 
 # Movies APP
 - [x] Using a Combination of UIKit and SwiftUI
