@@ -5,8 +5,8 @@
 
 # GetMeCoffee APP
 - [x] Utilizes segmented picker for selecting options
-- [x] Includes forms for inputting user information
-- [x] Implements a sheet for displaying additional details or confirmation
+- [ ] Includes forms for inputting user information
+- [ ] Implements a sheet for displaying additional details or confirmation
 
 # Menu APP
 - [x] Dynamic font sizing
