@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct FormContentView: View {
     
     @State var isOn: Bool = false
     @State var isEnabled: Bool = false
@@ -86,6 +86,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        FormContentView()
     }
 }

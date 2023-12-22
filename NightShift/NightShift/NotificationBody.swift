@@ -23,3 +23,20 @@ extension NotificationBody {
                 NotificationBody(name: "Notify 5")]
     }
 }
+
+
+struct Flag: Identifiable {
+    let id = UUID()
+    var name: String
+}
+
+extension Flag {
+    
+    static func all() -> [Flag] {
+        return [Flag(name: "🇧🇬"),
+                Flag(name: "🇨🇬"),
+                Flag(name: "🇨🇩"),
+                Flag(name: "🇨🇷"),
+                Flag(name: "🇨🇮")]
+    }
+}

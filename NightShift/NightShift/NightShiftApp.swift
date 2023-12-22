@@ -11,7 +11,7 @@ import SwiftUI
 struct NightShiftApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            FormContentView()
         }
     }
 }
