@@ -16,6 +16,7 @@
 		F1F5875F2B35F4A6005F6150 /* NightShiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F5875E2B35F4A6005F6150 /* NightShiftUITestsLaunchTests.swift */; };
 		F1F5876C2B35FB81005F6150 /* NotificationBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F5876B2B35FB81005F6150 /* NotificationBody.swift */; };
 		F1F5876E2B36025B005F6150 /* SheetContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F5876D2B36025B005F6150 /* SheetContentView.swift */; };
+		F1F7BB042B3779AB00CC3C1C /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F7BB032B3779AB00CC3C1C /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		F1F5875E2B35F4A6005F6150 /* NightShiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightShiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F1F5876B2B35FB81005F6150 /* NotificationBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationBody.swift; sourceTree = "<group>"; };
 		F1F5876D2B36025B005F6150 /* SheetContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetContentView.swift; sourceTree = "<group>"; };
+		F1F7BB032B3779AB00CC3C1C /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				F1F587432B35F4A4005F6150 /* FormContentView.swift */,
 				F1F5876D2B36025B005F6150 /* SheetContentView.swift */,
 				F1F5876B2B35FB81005F6150 /* NotificationBody.swift */,
+				F1F7BB032B3779AB00CC3C1C /* ImagePicker.swift */,
 				F1F587452B35F4A5005F6150 /* Assets.xcassets */,
 				F1F587472B35F4A5005F6150 /* Preview Content */,
 			);
@@ -265,6 +268,7 @@
 			files = (
 				F1F5876E2B36025B005F6150 /* SheetContentView.swift in Sources */,
 				F1F587442B35F4A4005F6150 /* FormContentView.swift in Sources */,
+				F1F7BB042B3779AB00CC3C1C /* ImagePicker.swift in Sources */,
 				F1F587422B35F4A4005F6150 /* NightShiftApp.swift in Sources */,
 				F1F5876C2B35FB81005F6150 /* NotificationBody.swift in Sources */,
 			);
