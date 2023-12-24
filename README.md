@@ -19,7 +19,5 @@
 - [x] Allows display of SwiftUI views in a UIKit app
 - [x] Implements an Image Loader service using SwiftUI
 
-# Stocks APP
-
 # Near me APP
 
