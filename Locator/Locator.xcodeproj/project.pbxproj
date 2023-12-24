@@ -14,11 +14,10 @@
 		F18E6FC32B3813E800A3C3C5 /* LocatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18E6FC22B3813E800A3C3C5 /* LocatorTests.swift */; };
 		F18E6FCD2B3813E800A3C3C5 /* LocatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18E6FCC2B3813E800A3C3C5 /* LocatorUITests.swift */; };
 		F18E6FCF2B3813E800A3C3C5 /* LocatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18E6FCE2B3813E800A3C3C5 /* LocatorUITestsLaunchTests.swift */; };
-		F18E6FDC2B3815A700A3C3C5 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18E6FDB2B3815A700A3C3C5 /* MapView.swift */; };
-		F18E6FDE2B38203200A3C3C5 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18E6FDD2B38203200A3C3C5 /* Coordinator.swift */; };
 		F18E6FE02B38227E00A3C3C5 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18E6FDF2B38227E00A3C3C5 /* LocationManager.swift */; };
-		F18E6FE22B382D6700A3C3C5 /* LandMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18E6FE12B382D6700A3C3C5 /* LandMark.swift */; };
-		F18E6FE42B382E1300A3C3C5 /* LandMarkAnnotations.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18E6FE32B382E1300A3C3C5 /* LandMarkAnnotations.swift */; };
+		F18E6FE92B38681D00A3C3C5 /* MKCoordinateRegion+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18E6FE82B38681D00A3C3C5 /* MKCoordinateRegion+Extensions.swift */; };
+		F18E6FEC2B38686600A3C3C5 /* LandmarkViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18E6FEA2B38686600A3C3C5 /* LandmarkViewModel.swift */; };
+		F18E6FED2B38686600A3C3C5 /* PlaceListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18E6FEB2B38686600A3C3C5 /* PlaceListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,11 +48,10 @@
 		F18E6FC82B3813E800A3C3C5 /* LocatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F18E6FCC2B3813E800A3C3C5 /* LocatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocatorUITests.swift; sourceTree = "<group>"; };
 		F18E6FCE2B3813E800A3C3C5 /* LocatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		F18E6FDB2B3815A700A3C3C5 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
-		F18E6FDD2B38203200A3C3C5 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		F18E6FDF2B38227E00A3C3C5 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
-		F18E6FE12B382D6700A3C3C5 /* LandMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandMark.swift; sourceTree = "<group>"; };
-		F18E6FE32B382E1300A3C3C5 /* LandMarkAnnotations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandMarkAnnotations.swift; sourceTree = "<group>"; };
+		F18E6FE82B38681D00A3C3C5 /* MKCoordinateRegion+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MKCoordinateRegion+Extensions.swift"; sourceTree = "<group>"; };
+		F18E6FEA2B38686600A3C3C5 /* LandmarkViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandmarkViewModel.swift; sourceTree = "<group>"; };
+		F18E6FEB2B38686600A3C3C5 /* PlaceListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,10 +102,10 @@
 		F18E6FB02B3813E700A3C3C5 /* Locator */ = {
 			isa = PBXGroup;
 			children = (
-				F18E6FE52B382EDB00A3C3C5 /* LandMarks */,
+				F18E6FEE2B38687700A3C3C5 /* Extensions */,
+				F18E6FE52B382EDB00A3C3C5 /* ViewModel */,
 				F18E6FB12B3813E700A3C3C5 /* LocatorApp.swift */,
 				F18E6FB32B3813E700A3C3C5 /* ContentView.swift */,
-				F18E6FE62B382EED00A3C3C5 /* MapView */,
 				F18E6FE72B382EFA00A3C3C5 /* locationManager */,
 				F18E6FB52B3813E800A3C3C5 /* Assets.xcassets */,
 				F18E6FB72B3813E800A3C3C5 /* Preview Content */,
@@ -140,22 +138,13 @@
 			path = LocatorUITests;
 			sourceTree = "<group>";
 		};
-		F18E6FE52B382EDB00A3C3C5 /* LandMarks */ = {
+		F18E6FE52B382EDB00A3C3C5 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				F18E6FE12B382D6700A3C3C5 /* LandMark.swift */,
-				F18E6FE32B382E1300A3C3C5 /* LandMarkAnnotations.swift */,
+				F18E6FEA2B38686600A3C3C5 /* LandmarkViewModel.swift */,
+				F18E6FEB2B38686600A3C3C5 /* PlaceListViewModel.swift */,
 			);
-			path = LandMarks;
-			sourceTree = "<group>";
-		};
-		F18E6FE62B382EED00A3C3C5 /* MapView */ = {
-			isa = PBXGroup;
-			children = (
-				F18E6FDB2B3815A700A3C3C5 /* MapView.swift */,
-				F18E6FDD2B38203200A3C3C5 /* Coordinator.swift */,
-			);
-			path = MapView;
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		F18E6FE72B382EFA00A3C3C5 /* locationManager */ = {
@@ -164,6 +153,14 @@
 				F18E6FDF2B38227E00A3C3C5 /* LocationManager.swift */,
 			);
 			path = locationManager;
+			sourceTree = "<group>";
+		};
+		F18E6FEE2B38687700A3C3C5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F18E6FE82B38681D00A3C3C5 /* MKCoordinateRegion+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,13 +293,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F18E6FDE2B38203200A3C3C5 /* Coordinator.swift in Sources */,
 				F18E6FB42B3813E700A3C3C5 /* ContentView.swift in Sources */,
 				F18E6FE02B38227E00A3C3C5 /* LocationManager.swift in Sources */,
-				F18E6FE22B382D6700A3C3C5 /* LandMark.swift in Sources */,
-				F18E6FDC2B3815A700A3C3C5 /* MapView.swift in Sources */,
+				F18E6FEC2B38686600A3C3C5 /* LandmarkViewModel.swift in Sources */,
+				F18E6FE92B38681D00A3C3C5 /* MKCoordinateRegion+Extensions.swift in Sources */,
 				F18E6FB22B3813E700A3C3C5 /* LocatorApp.swift in Sources */,
-				F18E6FE42B382E1300A3C3C5 /* LandMarkAnnotations.swift in Sources */,
+				F18E6FED2B38686600A3C3C5 /* PlaceListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

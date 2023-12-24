@@ -1,16 +1,18 @@
 //
-//  LandMark.swift
-//  Locator
+//  LandmarkViewModel.swift
+//  NearMe
 //
-//  Created by Alaa Eid on 24/12/2023.
+//  Created by Mohammad Azam on 5/5/21.
 //
 
 import Foundation
 import MapKit
 
-struct LandMark {
-    let id = UUID()
+struct LandmarkViewModel: Identifiable {
+    
     let placemark: MKPlacemark
+    
+    let id = UUID()
     
     var name: String {
         placemark.name ?? ""
@@ -23,4 +25,5 @@ struct LandMark {
     var coordinate: CLLocationCoordinate2D {
         placemark.coordinate 
     }
+    
 }

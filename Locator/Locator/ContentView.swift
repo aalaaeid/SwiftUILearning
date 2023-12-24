@@ -10,40 +10,32 @@ import MapKit
 
 struct ContentView: View {
     
-    @ObservedObject var locationManager = LocationManager()
-    @State var searchText: String = ""
-    @State var landMarks = [LandMark]()
-    private func getNearbyLandMarks() {
-        guard let location = locationManager.location else {
-            return
+
+    
+    @StateObject private var placeListVM = PlaceListViewModel()
+    @State private var userTrackingMode: MapUserTrackingMode = .follow
+    @State private var searchTerm: String = ""
+    
+    private func getRegion() -> Binding<MKCoordinateRegion> {
+        
+        guard let coordinate = placeListVM.currentLocation else {
+            return .constant(MKCoordinateRegion.defaultRegion)
         }
         
-        let request = MKLocalSearch.Request()
-        request.naturalLanguageQuery = searchText
-        request.region = MKCoordinateRegion(center: location.coordinate,
-                                            latitudinalMeters: 1000,
-                                            longitudinalMeters: 1000)
+        return .constant(MKCoordinateRegion(center: coordinate, span: MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05)))
         
-        let search = MKLocalSearch(request: request)
-        search.start { response, error in
-            guard let response = response, error == nil else {
-                return
-            }
-            
-            landMarks =
-            response.mapItems.map {
-                LandMark(placemark: $0.placemark)
-                 }
-            
-        }
     }
+    
+ 
     
     var body: some View {
         ZStack(alignment: .top) {
-            
-            MapView(landmarks: landMarks)
-            TextField("Enter Location", text: $searchText) {
-                getNearbyLandMarks()
+            Map(coordinateRegion: getRegion(), interactionModes: .all, showsUserLocation: true, userTrackingMode: $userTrackingMode, annotationItems: placeListVM.landmarks) { landmark in
+                MapMarker(coordinate: landmark.coordinate)
+            }
+            TextField("Enter Location", text: $searchTerm) {
+                placeListVM.searchLandmarks(searchTerm: searchTerm)
+
             }.textFieldStyle(.roundedBorder)
                 .padding()
         }

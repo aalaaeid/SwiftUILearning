@@ -30,8 +30,10 @@ extension LocationManager: CLLocationManagerDelegate {
         guard let location = locations.first else {
             return
         }
+        DispatchQueue.main.async {
+            self.location = location
+        }
         
-        self.location = location
     }
 }
 
