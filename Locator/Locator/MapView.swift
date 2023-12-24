@@ -23,16 +23,13 @@ struct MapView: UIViewRepresentable {
     }
     
     
-    class Coordinator: NSObject, MKMapViewDelegate {
-        
-    }
+
     
     func updateUIView(_ uiView: MKMapView, context: Context) {
         
     }
     
     func makeCoordinator() -> Coordinator {
-        let coordinator = Coordinator()
-        return coordinator
+      Coordinator(self)
     }
 }

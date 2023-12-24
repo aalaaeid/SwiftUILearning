@@ -15,6 +15,8 @@
 		F18E6FCD2B3813E800A3C3C5 /* LocatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18E6FCC2B3813E800A3C3C5 /* LocatorUITests.swift */; };
 		F18E6FCF2B3813E800A3C3C5 /* LocatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18E6FCE2B3813E800A3C3C5 /* LocatorUITestsLaunchTests.swift */; };
 		F18E6FDC2B3815A700A3C3C5 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18E6FDB2B3815A700A3C3C5 /* MapView.swift */; };
+		F18E6FDE2B38203200A3C3C5 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18E6FDD2B38203200A3C3C5 /* Coordinator.swift */; };
+		F18E6FE02B38227E00A3C3C5 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18E6FDF2B38227E00A3C3C5 /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		F18E6FCC2B3813E800A3C3C5 /* LocatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocatorUITests.swift; sourceTree = "<group>"; };
 		F18E6FCE2B3813E800A3C3C5 /* LocatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F18E6FDB2B3815A700A3C3C5 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		F18E6FDD2B38203200A3C3C5 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		F18E6FDF2B38227E00A3C3C5 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 				F18E6FB12B3813E700A3C3C5 /* LocatorApp.swift */,
 				F18E6FB32B3813E700A3C3C5 /* ContentView.swift */,
 				F18E6FDB2B3815A700A3C3C5 /* MapView.swift */,
+				F18E6FDD2B38203200A3C3C5 /* Coordinator.swift */,
+				F18E6FDF2B38227E00A3C3C5 /* LocationManager.swift */,
 				F18E6FB52B3813E800A3C3C5 /* Assets.xcassets */,
 				F18E6FB72B3813E800A3C3C5 /* Preview Content */,
 			);
@@ -260,7 +266,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F18E6FDE2B38203200A3C3C5 /* Coordinator.swift in Sources */,
 				F18E6FB42B3813E700A3C3C5 /* ContentView.swift in Sources */,
+				F18E6FE02B38227E00A3C3C5 /* LocationManager.swift in Sources */,
 				F18E6FDC2B3815A700A3C3C5 /* MapView.swift in Sources */,
 				F18E6FB22B3813E700A3C3C5 /* LocatorApp.swift in Sources */,
 			);
@@ -424,6 +432,8 @@
 				DEVELOPMENT_TEAM = GT28PH595G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "locator wants to use your location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "locator wants to use your location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -453,6 +463,8 @@
 				DEVELOPMENT_TEAM = GT28PH595G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "locator wants to use your location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "locator wants to use your location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
