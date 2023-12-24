@@ -8,6 +8,11 @@
 import SwiftUI
 import MapKit
 
+enum DisplayType {
+    case map
+    case list
+}
+
 struct ContentView: View {
     
 
@@ -15,6 +20,7 @@ struct ContentView: View {
     @StateObject private var placeListVM = PlaceListViewModel()
     @State private var userTrackingMode: MapUserTrackingMode = .follow
     @State private var searchTerm: String = ""
+    @State private var displayType: DisplayType = .map
     
     private func getRegion() -> Binding<MKCoordinateRegion> {
         
@@ -29,18 +35,34 @@ struct ContentView: View {
  
     
     var body: some View {
-        ZStack(alignment: .top) {
-            Map(coordinateRegion: getRegion(), interactionModes: .all, showsUserLocation: true, userTrackingMode: $userTrackingMode, annotationItems: placeListVM.landmarks) { landmark in
-                MapMarker(coordinate: landmark.coordinate)
-            }
+    
+        VStack {
+            
             TextField("Enter Location", text: $searchTerm) {
                 placeListVM.searchLandmarks(searchTerm: searchTerm)
-
+                
             }.textFieldStyle(.roundedBorder)
                 .padding()
-        }
-       
+            
+            Picker("Select", selection: $displayType) {
+                Text("Map").tag(DisplayType.map)
+                Text("List").tag(DisplayType.list)
+            }.pickerStyle(.segmented)
+            
+            if displayType == .map {
+                
+                Map(coordinateRegion: getRegion(), interactionModes: .all, showsUserLocation: true, userTrackingMode: $userTrackingMode, annotationItems: placeListVM.landmarks) { landmark in
+                    MapMarker(coordinate: landmark.coordinate)
+                }
+            } else {
+                List(placeListVM.landmarks) { landmark in
+                    Text(landmark.title)
+                }
+            }
+        }.padding()
     }
+       
+
 }
 
 struct ContentView_Previews: PreviewProvider {
