@@ -7,69 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F1F587422B35F4A4005F6150 /* NightShiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F587412B35F4A4005F6150 /* NightShiftApp.swift */; };
-		F1F587442B35F4A4005F6150 /* FormContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F587432B35F4A4005F6150 /* FormContentView.swift */; };
-		F1F587462B35F4A5005F6150 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1F587452B35F4A5005F6150 /* Assets.xcassets */; };
-		F1F587492B35F4A5005F6150 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1F587482B35F4A5005F6150 /* Preview Assets.xcassets */; };
-		F1F587532B35F4A5005F6150 /* NightShiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F587522B35F4A5005F6150 /* NightShiftTests.swift */; };
-		F1F5875D2B35F4A6005F6150 /* NightShiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F5875C2B35F4A6005F6150 /* NightShiftUITests.swift */; };
-		F1F5875F2B35F4A6005F6150 /* NightShiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F5875E2B35F4A6005F6150 /* NightShiftUITestsLaunchTests.swift */; };
-		F1F5876C2B35FB81005F6150 /* NotificationBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F5876B2B35FB81005F6150 /* NotificationBody.swift */; };
-		F1F5876E2B36025B005F6150 /* SheetContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F5876D2B36025B005F6150 /* SheetContentView.swift */; };
-		F1F7BB042B3779AB00CC3C1C /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F7BB032B3779AB00CC3C1C /* ImagePicker.swift */; };
-		F1F7BB062B377F7600CC3C1C /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F7BB052B377F7600CC3C1C /* SearchBar.swift */; };
+		F18E6FB22B3813E700A3C3C5 /* LocatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18E6FB12B3813E700A3C3C5 /* LocatorApp.swift */; };
+		F18E6FB42B3813E700A3C3C5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18E6FB32B3813E700A3C3C5 /* ContentView.swift */; };
+		F18E6FB62B3813E800A3C3C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F18E6FB52B3813E800A3C3C5 /* Assets.xcassets */; };
+		F18E6FB92B3813E800A3C3C5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F18E6FB82B3813E800A3C3C5 /* Preview Assets.xcassets */; };
+		F18E6FC32B3813E800A3C3C5 /* LocatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18E6FC22B3813E800A3C3C5 /* LocatorTests.swift */; };
+		F18E6FCD2B3813E800A3C3C5 /* LocatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18E6FCC2B3813E800A3C3C5 /* LocatorUITests.swift */; };
+		F18E6FCF2B3813E800A3C3C5 /* LocatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18E6FCE2B3813E800A3C3C5 /* LocatorUITestsLaunchTests.swift */; };
+		F18E6FDC2B3815A700A3C3C5 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18E6FDB2B3815A700A3C3C5 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		F1F5874F2B35F4A5005F6150 /* PBXContainerItemProxy */ = {
+		F18E6FBF2B3813E800A3C3C5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F1F587362B35F4A4005F6150 /* Project object */;
+			containerPortal = F18E6FA62B3813E700A3C3C5 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F1F5873D2B35F4A4005F6150;
-			remoteInfo = NightShift;
+			remoteGlobalIDString = F18E6FAD2B3813E700A3C3C5;
+			remoteInfo = Locator;
 		};
-		F1F587592B35F4A6005F6150 /* PBXContainerItemProxy */ = {
+		F18E6FC92B3813E800A3C3C5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F1F587362B35F4A4005F6150 /* Project object */;
+			containerPortal = F18E6FA62B3813E700A3C3C5 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F1F5873D2B35F4A4005F6150;
-			remoteInfo = NightShift;
+			remoteGlobalIDString = F18E6FAD2B3813E700A3C3C5;
+			remoteInfo = Locator;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F1F5873E2B35F4A4005F6150 /* NightShift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NightShift.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F1F587412B35F4A4005F6150 /* NightShiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightShiftApp.swift; sourceTree = "<group>"; };
-		F1F587432B35F4A4005F6150 /* FormContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormContentView.swift; sourceTree = "<group>"; };
-		F1F587452B35F4A5005F6150 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F1F587482B35F4A5005F6150 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		F1F5874E2B35F4A5005F6150 /* NightShiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NightShiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F1F587522B35F4A5005F6150 /* NightShiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightShiftTests.swift; sourceTree = "<group>"; };
-		F1F587582B35F4A6005F6150 /* NightShiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NightShiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F1F5875C2B35F4A6005F6150 /* NightShiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightShiftUITests.swift; sourceTree = "<group>"; };
-		F1F5875E2B35F4A6005F6150 /* NightShiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightShiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		F1F5876B2B35FB81005F6150 /* NotificationBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationBody.swift; sourceTree = "<group>"; };
-		F1F5876D2B36025B005F6150 /* SheetContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetContentView.swift; sourceTree = "<group>"; };
-		F1F7BB032B3779AB00CC3C1C /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
-		F1F7BB052B377F7600CC3C1C /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		F18E6FAE2B3813E700A3C3C5 /* Locator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Locator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F18E6FB12B3813E700A3C3C5 /* LocatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocatorApp.swift; sourceTree = "<group>"; };
+		F18E6FB32B3813E700A3C3C5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F18E6FB52B3813E800A3C3C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F18E6FB82B3813E800A3C3C5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F18E6FBE2B3813E800A3C3C5 /* LocatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F18E6FC22B3813E800A3C3C5 /* LocatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocatorTests.swift; sourceTree = "<group>"; };
+		F18E6FC82B3813E800A3C3C5 /* LocatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F18E6FCC2B3813E800A3C3C5 /* LocatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocatorUITests.swift; sourceTree = "<group>"; };
+		F18E6FCE2B3813E800A3C3C5 /* LocatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F18E6FDB2B3815A700A3C3C5 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F1F5873B2B35F4A4005F6150 /* Frameworks */ = {
+		F18E6FAB2B3813E700A3C3C5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F1F5874B2B35F4A5005F6150 /* Frameworks */ = {
+		F18E6FBB2B3813E800A3C3C5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F1F587552B35F4A6005F6150 /* Frameworks */ = {
+		F18E6FC52B3813E800A3C3C5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -79,146 +73,143 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F1F587352B35F4A4005F6150 = {
+		F18E6FA52B3813E700A3C3C5 = {
 			isa = PBXGroup;
 			children = (
-				F1F587402B35F4A4005F6150 /* NightShift */,
-				F1F587512B35F4A5005F6150 /* NightShiftTests */,
-				F1F5875B2B35F4A6005F6150 /* NightShiftUITests */,
-				F1F5873F2B35F4A4005F6150 /* Products */,
+				F18E6FB02B3813E700A3C3C5 /* Locator */,
+				F18E6FC12B3813E800A3C3C5 /* LocatorTests */,
+				F18E6FCB2B3813E800A3C3C5 /* LocatorUITests */,
+				F18E6FAF2B3813E700A3C3C5 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F1F5873F2B35F4A4005F6150 /* Products */ = {
+		F18E6FAF2B3813E700A3C3C5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F1F5873E2B35F4A4005F6150 /* NightShift.app */,
-				F1F5874E2B35F4A5005F6150 /* NightShiftTests.xctest */,
-				F1F587582B35F4A6005F6150 /* NightShiftUITests.xctest */,
+				F18E6FAE2B3813E700A3C3C5 /* Locator.app */,
+				F18E6FBE2B3813E800A3C3C5 /* LocatorTests.xctest */,
+				F18E6FC82B3813E800A3C3C5 /* LocatorUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F1F587402B35F4A4005F6150 /* NightShift */ = {
+		F18E6FB02B3813E700A3C3C5 /* Locator */ = {
 			isa = PBXGroup;
 			children = (
-				F1F587412B35F4A4005F6150 /* NightShiftApp.swift */,
-				F1F587432B35F4A4005F6150 /* FormContentView.swift */,
-				F1F5876D2B36025B005F6150 /* SheetContentView.swift */,
-				F1F5876B2B35FB81005F6150 /* NotificationBody.swift */,
-				F1F7BB032B3779AB00CC3C1C /* ImagePicker.swift */,
-				F1F7BB052B377F7600CC3C1C /* SearchBar.swift */,
-				F1F587452B35F4A5005F6150 /* Assets.xcassets */,
-				F1F587472B35F4A5005F6150 /* Preview Content */,
+				F18E6FB12B3813E700A3C3C5 /* LocatorApp.swift */,
+				F18E6FB32B3813E700A3C3C5 /* ContentView.swift */,
+				F18E6FDB2B3815A700A3C3C5 /* MapView.swift */,
+				F18E6FB52B3813E800A3C3C5 /* Assets.xcassets */,
+				F18E6FB72B3813E800A3C3C5 /* Preview Content */,
 			);
-			path = NightShift;
+			path = Locator;
 			sourceTree = "<group>";
 		};
-		F1F587472B35F4A5005F6150 /* Preview Content */ = {
+		F18E6FB72B3813E800A3C3C5 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				F1F587482B35F4A5005F6150 /* Preview Assets.xcassets */,
+				F18E6FB82B3813E800A3C3C5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		F1F587512B35F4A5005F6150 /* NightShiftTests */ = {
+		F18E6FC12B3813E800A3C3C5 /* LocatorTests */ = {
 			isa = PBXGroup;
 			children = (
-				F1F587522B35F4A5005F6150 /* NightShiftTests.swift */,
+				F18E6FC22B3813E800A3C3C5 /* LocatorTests.swift */,
 			);
-			path = NightShiftTests;
+			path = LocatorTests;
 			sourceTree = "<group>";
 		};
-		F1F5875B2B35F4A6005F6150 /* NightShiftUITests */ = {
+		F18E6FCB2B3813E800A3C3C5 /* LocatorUITests */ = {
 			isa = PBXGroup;
 			children = (
-				F1F5875C2B35F4A6005F6150 /* NightShiftUITests.swift */,
-				F1F5875E2B35F4A6005F6150 /* NightShiftUITestsLaunchTests.swift */,
+				F18E6FCC2B3813E800A3C3C5 /* LocatorUITests.swift */,
+				F18E6FCE2B3813E800A3C3C5 /* LocatorUITestsLaunchTests.swift */,
 			);
-			path = NightShiftUITests;
+			path = LocatorUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F1F5873D2B35F4A4005F6150 /* NightShift */ = {
+		F18E6FAD2B3813E700A3C3C5 /* Locator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F1F587622B35F4A6005F6150 /* Build configuration list for PBXNativeTarget "NightShift" */;
+			buildConfigurationList = F18E6FD22B3813E800A3C3C5 /* Build configuration list for PBXNativeTarget "Locator" */;
 			buildPhases = (
-				F1F5873A2B35F4A4005F6150 /* Sources */,
-				F1F5873B2B35F4A4005F6150 /* Frameworks */,
-				F1F5873C2B35F4A4005F6150 /* Resources */,
+				F18E6FAA2B3813E700A3C3C5 /* Sources */,
+				F18E6FAB2B3813E700A3C3C5 /* Frameworks */,
+				F18E6FAC2B3813E700A3C3C5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = NightShift;
-			productName = NightShift;
-			productReference = F1F5873E2B35F4A4005F6150 /* NightShift.app */;
+			name = Locator;
+			productName = Locator;
+			productReference = F18E6FAE2B3813E700A3C3C5 /* Locator.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F1F5874D2B35F4A5005F6150 /* NightShiftTests */ = {
+		F18E6FBD2B3813E800A3C3C5 /* LocatorTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F1F587652B35F4A6005F6150 /* Build configuration list for PBXNativeTarget "NightShiftTests" */;
+			buildConfigurationList = F18E6FD52B3813E800A3C3C5 /* Build configuration list for PBXNativeTarget "LocatorTests" */;
 			buildPhases = (
-				F1F5874A2B35F4A5005F6150 /* Sources */,
-				F1F5874B2B35F4A5005F6150 /* Frameworks */,
-				F1F5874C2B35F4A5005F6150 /* Resources */,
+				F18E6FBA2B3813E800A3C3C5 /* Sources */,
+				F18E6FBB2B3813E800A3C3C5 /* Frameworks */,
+				F18E6FBC2B3813E800A3C3C5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F1F587502B35F4A5005F6150 /* PBXTargetDependency */,
+				F18E6FC02B3813E800A3C3C5 /* PBXTargetDependency */,
 			);
-			name = NightShiftTests;
-			productName = NightShiftTests;
-			productReference = F1F5874E2B35F4A5005F6150 /* NightShiftTests.xctest */;
+			name = LocatorTests;
+			productName = LocatorTests;
+			productReference = F18E6FBE2B3813E800A3C3C5 /* LocatorTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		F1F587572B35F4A6005F6150 /* NightShiftUITests */ = {
+		F18E6FC72B3813E800A3C3C5 /* LocatorUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F1F587682B35F4A6005F6150 /* Build configuration list for PBXNativeTarget "NightShiftUITests" */;
+			buildConfigurationList = F18E6FD82B3813E800A3C3C5 /* Build configuration list for PBXNativeTarget "LocatorUITests" */;
 			buildPhases = (
-				F1F587542B35F4A6005F6150 /* Sources */,
-				F1F587552B35F4A6005F6150 /* Frameworks */,
-				F1F587562B35F4A6005F6150 /* Resources */,
+				F18E6FC42B3813E800A3C3C5 /* Sources */,
+				F18E6FC52B3813E800A3C3C5 /* Frameworks */,
+				F18E6FC62B3813E800A3C3C5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F1F5875A2B35F4A6005F6150 /* PBXTargetDependency */,
+				F18E6FCA2B3813E800A3C3C5 /* PBXTargetDependency */,
 			);
-			name = NightShiftUITests;
-			productName = NightShiftUITests;
-			productReference = F1F587582B35F4A6005F6150 /* NightShiftUITests.xctest */;
+			name = LocatorUITests;
+			productName = LocatorUITests;
+			productReference = F18E6FC82B3813E800A3C3C5 /* LocatorUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F1F587362B35F4A4005F6150 /* Project object */ = {
+		F18E6FA62B3813E700A3C3C5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					F1F5873D2B35F4A4005F6150 = {
+					F18E6FAD2B3813E700A3C3C5 = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
-					F1F5874D2B35F4A5005F6150 = {
+					F18E6FBD2B3813E800A3C3C5 = {
 						CreatedOnToolsVersion = 14.3.1;
-						TestTargetID = F1F5873D2B35F4A4005F6150;
+						TestTargetID = F18E6FAD2B3813E700A3C3C5;
 					};
-					F1F587572B35F4A6005F6150 = {
+					F18E6FC72B3813E800A3C3C5 = {
 						CreatedOnToolsVersion = 14.3.1;
-						TestTargetID = F1F5873D2B35F4A4005F6150;
+						TestTargetID = F18E6FAD2B3813E700A3C3C5;
 					};
 				};
 			};
-			buildConfigurationList = F1F587392B35F4A4005F6150 /* Build configuration list for PBXProject "NightShift" */;
+			buildConfigurationList = F18E6FA92B3813E700A3C3C5 /* Build configuration list for PBXProject "Locator" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -226,36 +217,36 @@
 				en,
 				Base,
 			);
-			mainGroup = F1F587352B35F4A4005F6150;
-			productRefGroup = F1F5873F2B35F4A4005F6150 /* Products */;
+			mainGroup = F18E6FA52B3813E700A3C3C5;
+			productRefGroup = F18E6FAF2B3813E700A3C3C5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F1F5873D2B35F4A4005F6150 /* NightShift */,
-				F1F5874D2B35F4A5005F6150 /* NightShiftTests */,
-				F1F587572B35F4A6005F6150 /* NightShiftUITests */,
+				F18E6FAD2B3813E700A3C3C5 /* Locator */,
+				F18E6FBD2B3813E800A3C3C5 /* LocatorTests */,
+				F18E6FC72B3813E800A3C3C5 /* LocatorUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F1F5873C2B35F4A4005F6150 /* Resources */ = {
+		F18E6FAC2B3813E700A3C3C5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1F587492B35F4A5005F6150 /* Preview Assets.xcassets in Resources */,
-				F1F587462B35F4A5005F6150 /* Assets.xcassets in Resources */,
+				F18E6FB92B3813E800A3C3C5 /* Preview Assets.xcassets in Resources */,
+				F18E6FB62B3813E800A3C3C5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F1F5874C2B35F4A5005F6150 /* Resources */ = {
+		F18E6FBC2B3813E800A3C3C5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F1F587562B35F4A6005F6150 /* Resources */ = {
+		F18E6FC62B3813E800A3C3C5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -265,53 +256,50 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F1F5873A2B35F4A4005F6150 /* Sources */ = {
+		F18E6FAA2B3813E700A3C3C5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1F5876E2B36025B005F6150 /* SheetContentView.swift in Sources */,
-				F1F587442B35F4A4005F6150 /* FormContentView.swift in Sources */,
-				F1F7BB042B3779AB00CC3C1C /* ImagePicker.swift in Sources */,
-				F1F587422B35F4A4005F6150 /* NightShiftApp.swift in Sources */,
-				F1F5876C2B35FB81005F6150 /* NotificationBody.swift in Sources */,
-				F1F7BB062B377F7600CC3C1C /* SearchBar.swift in Sources */,
+				F18E6FB42B3813E700A3C3C5 /* ContentView.swift in Sources */,
+				F18E6FDC2B3815A700A3C3C5 /* MapView.swift in Sources */,
+				F18E6FB22B3813E700A3C3C5 /* LocatorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F1F5874A2B35F4A5005F6150 /* Sources */ = {
+		F18E6FBA2B3813E800A3C3C5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1F587532B35F4A5005F6150 /* NightShiftTests.swift in Sources */,
+				F18E6FC32B3813E800A3C3C5 /* LocatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F1F587542B35F4A6005F6150 /* Sources */ = {
+		F18E6FC42B3813E800A3C3C5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1F5875F2B35F4A6005F6150 /* NightShiftUITestsLaunchTests.swift in Sources */,
-				F1F5875D2B35F4A6005F6150 /* NightShiftUITests.swift in Sources */,
+				F18E6FCD2B3813E800A3C3C5 /* LocatorUITests.swift in Sources */,
+				F18E6FCF2B3813E800A3C3C5 /* LocatorUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		F1F587502B35F4A5005F6150 /* PBXTargetDependency */ = {
+		F18E6FC02B3813E800A3C3C5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F1F5873D2B35F4A4005F6150 /* NightShift */;
-			targetProxy = F1F5874F2B35F4A5005F6150 /* PBXContainerItemProxy */;
+			target = F18E6FAD2B3813E700A3C3C5 /* Locator */;
+			targetProxy = F18E6FBF2B3813E800A3C3C5 /* PBXContainerItemProxy */;
 		};
-		F1F5875A2B35F4A6005F6150 /* PBXTargetDependency */ = {
+		F18E6FCA2B3813E800A3C3C5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F1F5873D2B35F4A4005F6150 /* NightShift */;
-			targetProxy = F1F587592B35F4A6005F6150 /* PBXContainerItemProxy */;
+			target = F18E6FAD2B3813E700A3C3C5 /* Locator */;
+			targetProxy = F18E6FC92B3813E800A3C3C5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		F1F587602B35F4A6005F6150 /* Debug */ = {
+		F18E6FD02B3813E800A3C3C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -371,7 +359,7 @@
 			};
 			name = Debug;
 		};
-		F1F587612B35F4A6005F6150 /* Release */ = {
+		F18E6FD12B3813E800A3C3C5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -425,14 +413,14 @@
 			};
 			name = Release;
 		};
-		F1F587632B35F4A6005F6150 /* Debug */ = {
+		F18E6FD32B3813E800A3C3C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"NightShift/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Locator/Preview Content\"";
 				DEVELOPMENT_TEAM = GT28PH595G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -446,7 +434,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = apps.Test.aalaaeid.com.NightShift;
+				PRODUCT_BUNDLE_IDENTIFIER = apps.Test.aalaaeid.com.Locator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -454,14 +442,14 @@
 			};
 			name = Debug;
 		};
-		F1F587642B35F4A6005F6150 /* Release */ = {
+		F18E6FD42B3813E800A3C3C5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"NightShift/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Locator/Preview Content\"";
 				DEVELOPMENT_TEAM = GT28PH595G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -475,7 +463,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = apps.Test.aalaaeid.com.NightShift;
+				PRODUCT_BUNDLE_IDENTIFIER = apps.Test.aalaaeid.com.Locator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -483,7 +471,7 @@
 			};
 			name = Release;
 		};
-		F1F587662B35F4A6005F6150 /* Debug */ = {
+		F18E6FD62B3813E800A3C3C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -494,16 +482,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = apps.Test.aalaaeid.com.NightShiftTests;
+				PRODUCT_BUNDLE_IDENTIFIER = apps.Test.aalaaeid.com.LocatorTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NightShift.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NightShift";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Locator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Locator";
 			};
 			name = Debug;
 		};
-		F1F587672B35F4A6005F6150 /* Release */ = {
+		F18E6FD72B3813E800A3C3C5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -514,16 +502,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = apps.Test.aalaaeid.com.NightShiftTests;
+				PRODUCT_BUNDLE_IDENTIFIER = apps.Test.aalaaeid.com.LocatorTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NightShift.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NightShift";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Locator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Locator";
 			};
 			name = Release;
 		};
-		F1F587692B35F4A6005F6150 /* Debug */ = {
+		F18E6FD92B3813E800A3C3C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -532,16 +520,16 @@
 				DEVELOPMENT_TEAM = GT28PH595G;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = apps.Test.aalaaeid.com.NightShiftUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = apps.Test.aalaaeid.com.LocatorUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = NightShift;
+				TEST_TARGET_NAME = Locator;
 			};
 			name = Debug;
 		};
-		F1F5876A2B35F4A6005F6150 /* Release */ = {
+		F18E6FDA2B3813E800A3C3C5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -550,55 +538,55 @@
 				DEVELOPMENT_TEAM = GT28PH595G;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = apps.Test.aalaaeid.com.NightShiftUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = apps.Test.aalaaeid.com.LocatorUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = NightShift;
+				TEST_TARGET_NAME = Locator;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F1F587392B35F4A4005F6150 /* Build configuration list for PBXProject "NightShift" */ = {
+		F18E6FA92B3813E700A3C3C5 /* Build configuration list for PBXProject "Locator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F1F587602B35F4A6005F6150 /* Debug */,
-				F1F587612B35F4A6005F6150 /* Release */,
+				F18E6FD02B3813E800A3C3C5 /* Debug */,
+				F18E6FD12B3813E800A3C3C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F1F587622B35F4A6005F6150 /* Build configuration list for PBXNativeTarget "NightShift" */ = {
+		F18E6FD22B3813E800A3C3C5 /* Build configuration list for PBXNativeTarget "Locator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F1F587632B35F4A6005F6150 /* Debug */,
-				F1F587642B35F4A6005F6150 /* Release */,
+				F18E6FD32B3813E800A3C3C5 /* Debug */,
+				F18E6FD42B3813E800A3C3C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F1F587652B35F4A6005F6150 /* Build configuration list for PBXNativeTarget "NightShiftTests" */ = {
+		F18E6FD52B3813E800A3C3C5 /* Build configuration list for PBXNativeTarget "LocatorTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F1F587662B35F4A6005F6150 /* Debug */,
-				F1F587672B35F4A6005F6150 /* Release */,
+				F18E6FD62B3813E800A3C3C5 /* Debug */,
+				F18E6FD72B3813E800A3C3C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F1F587682B35F4A6005F6150 /* Build configuration list for PBXNativeTarget "NightShiftUITests" */ = {
+		F18E6FD82B3813E800A3C3C5 /* Build configuration list for PBXNativeTarget "LocatorUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F1F587692B35F4A6005F6150 /* Debug */,
-				F1F5876A2B35F4A6005F6150 /* Release */,
+				F18E6FD92B3813E800A3C3C5 /* Debug */,
+				F18E6FDA2B3813E800A3C3C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F1F587362B35F4A4005F6150 /* Project object */;
+	rootObject = F18E6FA62B3813E700A3C3C5 /* Project object */;
 }
